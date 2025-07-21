@@ -2,6 +2,12 @@
 	"name": "shineforge/compass",
 	"type": "library",
 	"license": "MIT",
+	"description": "A modern, robust, and PSR-7 compatible URL manipulation library for PHP.",
+	"keywords": [
+		"PSR-7",
+		"URL",
+		"URI"
+	],
 	"require": {
 		"psr/http-message": "^2.0"
 	},
