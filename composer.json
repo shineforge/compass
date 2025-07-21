@@ -1,0 +1,38 @@
+{
+	"name": "shineforge/compass",
+	"type": "library",
+	"license": "MIT",
+	"require": {
+		"psr/http-message": "^2.0"
+	},
+	"require-dev": {
+		"phpstan/phpstan": "^2.1",
+		"phpstan/phpstan-strict-rules": "^2.0",
+		"php-cs-fixer/shim": "^3.83",
+		"phpunit/phpunit": "^12.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Compass\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Compass\\Tests\\": "tests/"
+		}
+	},
+	"scripts": {
+		"all": [
+			"@syntax",
+			"@analyze",
+			"@test"
+		],
+		"analyze": "@analyze:static",
+		"analyze:static": "phpstan analyse -v",
+		"test": "@test:unit",
+		"test:unit": "phpunit --do-not-cache-result",
+		"syntax": "@syntax:check",
+		"syntax:check": "php-cs-fixer check --verbose --using-cache=no --allow-risky=yes",
+		"syntax:fix": "php-cs-fixer fix --verbose --using-cache=no --allow-risky=yes"
+	}
+}
