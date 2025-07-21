@@ -1,6 +1,11 @@
-# Compass
+# shineforge/compass
 
-A modern, robust, and PSR-7 compatible URL manipulation library for PHP.
+[![License](https://img.shields.io/packagist/l/shineforge/compass)](https://github.com/shineforge/compass/blob/main/LICENSE)
+[![Latest Version](https://img.shields.io/packagist/v/shineforge/compass?label=latest)](https://packagist.org/packages/shineforge/compass/)
+[![PHP Version](https://img.shields.io/packagist/dependency-v/shineforge/compass/php?label=php)](https://www.php.net/releases/index.php)
+[![Main Status](https://img.shields.io/github/actions/workflow/status/shineforge/compass/verify.yml?branch=main&label=main)](https://github.com/shineforge/compass/actions/workflows/verify.yml?query=branch%3Amain)
+[![Release Status](https://img.shields.io/github/actions/workflow/status/shineforge/compass/verify.yml?branch=release&label=release)](https://github.com/shineforge/compass/actions/workflows/verify.yml?query=branch%3Arelease)
+[![Develop Status](https://img.shields.io/github/actions/workflow/status/shineforge/compass/verify.yml?branch=develop&label=develop)](https://github.com/shineforge/compass/actions/workflows/verify.yml?query=branch%3Adevelop)
 
 ## Description
 
